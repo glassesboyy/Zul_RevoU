@@ -3,112 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalkulator</title>
-    <style>
-        table, th, td, tr {
-            border: 1px solid;
-        }
-
-        fieldset {
-            width: 20%;
-        }
-    </style>
+    <title>Kalkulator Grid Sederhana</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> Belajar Membuat Kakulator dengan HTML</h1>
-    <table>
-        <th colspan="5">
-            <button><input name"display" type="text"></button>
-        </th>
-        <tr>
-            <td>
-                <button>7</button>
-            </td>
-            <td>
-                <button>8</button>
-            </td>
-            <td>
-                <button>9</button>
-            </td>
-            <td>
-                <button>+</button>
-            </td>
-            <td>
-                <button>-</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button>4</button>
-            </td>
-            <td>
-                <button>5</button>
-            </td>
-            <td>
-                <button>6</button>
-            </td>
-            <td>
-                <button>*</button>
-            </td>
-            <td>
-                <button>/</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button>1</button>
-            </td>
-            <td>
-                <button>2</button>
-            </td>
-            <td>
-                <button>3</button>
-            </td>
-            <td>
-                <button>$</button>
-            </td>
-            <td rowspan="2">
-                <button>=</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button>C</button>
-            </td>
-            <td>
-                <button>0</button>
-            </td>
-            <td>
-                <button>.</button>
-            </td>
-            <td>
-                <button>!</button>
-            </td>
-        </tr>
-    </table>
 
-    <hr>
-
-    <h1> Element HTML yang Baru Diketahui</h1>
-
-    <fieldset>
-    <legend>Masukkan Data Diri</legend>
-        <p>
-            <label for="nama">Nama: </label>
-            <input type="text" name="nama">
-        <p>
-            <label for="usia">Usia: </label>
-            <input type="number" name="usia">
-        <p>
-            <label for="dom">Domisili: </label>
-            <input type="text" name="dom">
-        <p>
-            <label for="lahir">Tanggal Lahir: </label>
-            <input type="date" name="lahir">
-        <p>
-            <input name="submit" type="submit" value="submit">
-    </fieldset>
-
+    <div class="calculator">
+        <input type="text" class="display">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>/</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>*</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>-</button>
+        <button>0</button>
+        <button>.</button>
+        <button>=</button>
+        <button>+</button>
+    </div>
 
 </body>
 </html>
